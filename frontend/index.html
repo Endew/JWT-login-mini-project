@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Login</title>
 </head>
 <body>
-    <h1>Login</h1>
-    <form id="loginForm">
-        <input type="text" id="username" placeholder="Username" required />
-        <input type="password" id="password" placeholder="Password" required />
-        <button type="submit">Login</button>
-    </form>
+    <div class="container">
+        <div class="loginForm">
+            <h1>Login</h1>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required />
+                <input type="password" id="password" placeholder="Password" required />
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="registerForm">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <input type="text" id="register_username" placeholder="Username" required />
+                <input type="password" id="register_password" placeholder="Password" required />
+                <input type="password" id="register_password_confirm" placeholder="Confirm Password" required />
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>

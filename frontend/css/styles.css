@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.loginForm {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin : 20px;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px #bbb;
+}
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.loginForm input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.loginForm button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.registerForm {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px #bbb;
+}
+.registerForm form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.registerForm input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.registerForm button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dashboard {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px #bbb;
+}
+.text {
+    margin-bottom: 20px;
+}
+.dashboard button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
